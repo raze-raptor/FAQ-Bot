@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is Python?",
+        "answer": "Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords where other languages use punctuation, and it has fewer syntactical constructions than other languages, making it very easy to learn."
+    },
+    {
+        "question": "Who created Python?",
+        "answer": "Python was created by Guido van Rossum and first released in 1991. He remains Python’s principal author, although it includes many contributions from others around the world."
+    },
+    {
+        "question": "What is the purpose of Python?",
+        "answer": "Python is used for a wide range of applications, including web development, data analysis, artificial intelligence, scientific computing, and more."
+    }
+]
