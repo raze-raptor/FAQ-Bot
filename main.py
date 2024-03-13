@@ -35,5 +35,21 @@ def get_answer(question):
     # Return corresponding answer
     return answers[most_similar_index]
 
-# Test the function
-print(get_answer("Your question here"))
+# Function to interact with the user
+def interact_with_faq_ai():
+    while True:
+        # Ask the user for a question
+        user_question = input("Please enter your question: ")
+        
+        # Check if the user wants to exit
+        if user_question.lower() == "exit":
+            break
+        
+        # Get the answer
+        answer = get_answer(user_question)
+        
+        # Print the answer
+        print("Answer:", answer)
+
+# Start the interaction
+interact_with_faq_ai()
